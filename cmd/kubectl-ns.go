@@ -21,8 +21,9 @@ import (
 
 	"github.com/spf13/pflag"
 
+	"github.com/juanvallejo/kubectl-ns/pkg/cmd"
+
 	"k8s.io/cli-runtime/pkg/genericclioptions"
-	"k8s.io/sample-cli-plugin/pkg/cmd"
 )
 
 func main() {
